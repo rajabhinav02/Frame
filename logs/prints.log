@@ -1,0 +1,4 @@
+00:06:26.819 [main] INFO  E2E.Frame.Pages.BrandPage - in list
+00:06:26.956 [main] INFO  E2E.Frame.Pages.BrandPage - 4
+00:06:27.833 [main] INFO  resources.BaseClass - hahagh
+00:06:49.252 [AsyncHttpClient-1-3] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3

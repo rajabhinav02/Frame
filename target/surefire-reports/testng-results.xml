@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-19T00:05:59 IST" name="Suite" finished-at="2021-08-19T00:06:27 IST" duration-ms="28172">
+    <groups>
+    </groups>
+    <test started-at="2021-08-19T00:05:59 IST" name="Test" finished-at="2021-08-19T00:06:17 IST" duration-ms="17580">
+      <class name="E2E.Frame.Testone">
+        <test-method signature="Testrun(java.lang.String,java.lang.String)[pri:0, instance:E2E.Frame.Testone@41ab013]" started-at="2021-08-19T00:05:59 IST" name="Testrun" data-provider="getData" finished-at="2021-08-19T00:06:17 IST" duration-ms="17255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[op]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testrun -->
+      </class> <!-- E2E.Frame.Testone -->
+    </test> <!-- Test -->
+    <test started-at="2021-08-19T00:06:21 IST" name="Test2" finished-at="2021-08-19T00:06:27 IST" duration-ms="6093">
+      <class name="E2E.Frame.Testtwo">
+        <test-method is-config="true" signature="getobj()[pri:0, instance:E2E.Frame.Testtwo@2a551a63]" started-at="2021-08-19T00:06:21 IST" name="getobj" finished-at="2021-08-19T00:06:21 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getobj -->
+        <test-method signature="clickbrandname()[pri:0, instance:E2E.Frame.Testtwo@2a551a63]" started-at="2021-08-19T00:06:21 IST" name="clickbrandname" finished-at="2021-08-19T00:06:27 IST" duration-ms="6019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickbrandname -->
+        <test-method is-config="true" signature="getSS(org.testng.ITestResult)[pri:0, instance:E2E.Frame.Testtwo@2a551a63]" started-at="2021-08-19T00:06:27 IST" name="getSS" finished-at="2021-08-19T00:06:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickbrandname status=SUCCESS method=Testtwo.clickbrandname()[pri:0, instance:E2E.Frame.Testtwo@2a551a63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSS -->
+      </class> <!-- E2E.Frame.Testtwo -->
+      <class name="E2E.Frame.Testone">
+        <test-method is-config="true" signature="load()[pri:0, instance:E2E.Frame.Testone@41ab013]" started-at="2021-08-19T00:05:22 IST" name="load" finished-at="2021-08-19T00:05:59 IST" duration-ms="37442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2E.Frame.Testone@41ab013]" started-at="2021-08-19T00:06:27 IST" name="teardown" finished-at="2021-08-19T00:06:47 IST" duration-ms="19932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2E.Frame.Testone -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
